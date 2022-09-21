@@ -22,6 +22,8 @@
 }
 
 .header{
+    display: flex;
+    flex-direction: column;
      background-color: #FFF;
      background-image: url("../images/background_header.svg");
      size: cover;
@@ -174,18 +176,21 @@ margin-top: auto;
 
 
 .menu{
+    display: flex;
+    flex-direction: column;
     background-color: #0a2750;
     background-repeat: no-repeat;
     background-position: center;
     width: cover;
     height:cover;
     color:white;
+
+    align-items: center;
 }
 
 .menu__title{
     max-width: 780px;
     padding-top: 100px;
-    text-align: center;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 500; 
@@ -201,18 +206,22 @@ font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 30px;
+text-align: center;
 }
 
 .menu__cards{
     margin-top: 100px;
     display:flex;
-    justify-content: space-between;
-    flex-wrap:wrap;
+    justify-content: center;
+    
+
     margin-bottom: 100px;
 }
 
 .menu__card{
     max-width: 600px;
+    display: flex;
+    flex-direction: column;
 }
 
 .menu__card_title{
@@ -225,6 +234,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 20px;
 line-height: 30px;
+
 }
 
 .menu__card_list{
@@ -236,10 +246,21 @@ line-height: 20px;
 list-style: none;
 padding-left: 0;
 margin-top:0;
+
 }
 
 .menu__card_list_item{
     padding-bottom: 16px;
+    display: flex;
+
+}
+
+.menu__divider{
+    display: flex;
+   align-self: stretch;
+ 
+    
+  
 }
 
 .menu__card_list_item:last-child{
@@ -253,6 +274,7 @@ margin-top:0;
 
 .baked{
     margin-top:100px;
+
    
 }
 
