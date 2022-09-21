@@ -168,12 +168,15 @@ margin-top: auto;
 
 .header__footer_hours{
 
-    margin-top: auto;
- 
-   
+    margin-bottom: 40px;
+    margin-left: 80px;
+    margin-top: auto; 
   
 }
-
+.header__footer_address{
+    margin-right: 80px;
+    margin-bottom: 40px;
+}
 
 .menu{
     display: flex;
@@ -184,6 +187,7 @@ margin-top: auto;
     width: cover;
     height:cover;
     color:white;
+    justify-content: center;
 
     align-items: center;
 }
@@ -201,11 +205,11 @@ margin-top: auto;
 .menu__title_subtitle{
     margin-top: 24px;
     max-width: 780px;
-    font-family: 'Noto+Serif','Times New Roman', serif;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 30px;
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
 text-align: center;
 }
 
@@ -213,18 +217,21 @@ text-align: center;
     margin-top: 100px;
     display:flex;
     justify-content: center;
-    
-
+    flex-wrap: wrap;
     margin-bottom: 100px;
+
 }
 
 .menu__card{
-    max-width: 600px;
-    display: flex;
+    width: 600px;
+
     flex-direction: column;
+ 
+    margin-right: 100px;
 }
 
 .menu__card_title{
+    margin-top:0;
     padding-bottom: 32px;
     margin-bottom: 0;
 }
@@ -246,6 +253,7 @@ line-height: 20px;
 list-style: none;
 padding-left: 0;
 margin-top:0;
+padding-bottom: 16px;
 
 }
 
@@ -254,12 +262,16 @@ margin-top:0;
     display: flex;
 
 }
+.menu__card_list_item:last-child{
+    padding-bottom:0;
+    display: flex;
+
+}
 
 .menu__divider{
-    display: flex;
-   align-self: stretch;
- 
-    
+    flex-grow: 1;
+    border-bottom: 1px solid white;
+    margin:0 10px 0 10px;
   
 }
 
@@ -273,7 +285,9 @@ margin-top:0;
 }
 
 .baked{
-    margin-top:100px;
+    display: flex;
+    justify-self:flex-end;
+    margin-top: 100px;
 
    
 }
@@ -284,6 +298,11 @@ margin-top:0;
     background-repeat: no-repeat;
     size:cover;
     background-position: center;
+
+    display: flex;
+    flex-direction: column;
+
+    
 }
 
 .recipes__title{
@@ -296,34 +315,51 @@ margin-top:0;
     font-size: 44px;
     line-height: 52px;
 }
-
 .recipes__subtitle{
-    margin-left: 80px;
-    margin-top: 24px;
-    max-width: 438px;
-    font-family: 'Noto+Serif','Times New Roman', serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
+    font-family: Noto Serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+margin-top: 24px;
+max-width: 438px;
+margin-left: 80px;
+
+}
+.recipes__videos{
+   display: flex;
+   justify-content: center;
+   
 }
 
-.recipes__videos{
-    margin-top: 80px;
-    width:480px;
-    height:273px;
-    margin-bottom: 215px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+
+.recipe__video{
+  
+
 }
+
+.recipe__video:first-child{
+    margin-right: 40px;
+    
+}
+
+.recipe__video_iframe{
+    width: 480px;
+    height:273px;
+}
+
+
+
 
 .recipes__video_caption{
-    font-family: 'Inter', Arial, sans-serif;
-    font-style: normal;
-    font-weight:500;
-    font-size: 20px;
-    line-height: 30px;
+    margin: 0;
+}
+
+
+.recipe__divider{
+    flex-grow: 1;
+    border-bottom: 1px solid black;
+    margin:0 10px 0 10px;
 }
 
 .reservation{
