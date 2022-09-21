@@ -28,9 +28,12 @@
      background-repeat: no-repeat;
      background-position: center;
      min-height: 720px;
-     max-width: 800px;
+     max-height: 800px;
      height: 100vh;
      position: relative;
+     z-index: 0;
+
+   
 }
 .header__image{
     width: 646px;
@@ -38,6 +41,8 @@
     position: absolute;
     top:124px;
     right:5px;
+    z-index:-1;
+  
 }
 
 .header__title{
@@ -49,6 +54,7 @@
     font-weight: 500;
 font-size: 60px;
 line-height: 72px;
+z-index: 2;
     
 }
 .span-accent{
@@ -59,6 +65,7 @@ font-weight: normal;
 font-size: 60px;
 line-height: 72px;
 color: #2F80ED;
+
 }
 
 .header__description{
@@ -69,6 +76,8 @@ font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 30px;
+max-width: 683px;
+
 }
 .logo{
    
@@ -110,6 +119,10 @@ line-height: 20px;
   font-weight: bold;
 }
 
+.nav__link:hover{
+    color: #1f69c9;
+  }
+
 .span-accent{
     color:#2f80ed;
     font-family:  'Noto+Serif','Times New Roman', serif;
@@ -125,35 +138,37 @@ line-height: 20px;
     position: absolute;
 }
 
-.header__cafe-hours{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 40px;
-    margin-left: 80px;
-    list-style: none;
-    padding:0;
-   
-}
 
-.header__cafe-address{
-    display: flex;
-    margin-right: 80px;
-    margin-bottom: 40px;
-   
-
-
-}
 .header__footer{
-    display: flex;
+  display: flex;
     font-family: Inter;
     font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 20px;
 color:#6f6f6f;
+margin: 0;
+align-items: flex-end;
 justify-content: space-between;
-   
+align-content: flex-end;
+
+
 }
+
+
+.header__footer_paragraph{
+    margin: 0;
+    align-content: flex-end;
+
+
+}
+
+.header__footer_hours{
+    align-content: flex-end;
+   
+  
+}
+
 
 .menu{
     background-color: #0a2750;
