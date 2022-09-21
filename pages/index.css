@@ -1,0 +1,453 @@
+@import url("./vendor/normalize.css");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif&display=swap');
+
+.font-container_font_inter{
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+.font-container_font_noto_serif{
+    font-family: 'Noto+Serif','Times New Roman', serif;
+}
+
+.page{
+    min-width: 1100px;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    
+}
+
+.header{
+     background-color: #FFF;
+     background-image: url("../images/background_header.svg");
+     size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     min-height: 720px;
+     max-width: 800px;
+     height: 100vh;
+     position: relative;
+}
+.header__image{
+    width: 646px;
+    height:568px;
+    position: absolute;
+    top:124px;
+    right:5px;
+}
+
+.header__title{
+    margin-left: 80px;
+    margin-top: 80px;
+    max-width: 729px;
+    font-family: Inter;
+    font-style: normal; 
+    font-weight: 500;
+font-size: 60px;
+line-height: 72px;
+    
+}
+.span-accent{
+    font-family: Noto Serif;
+
+font-style: italic;
+font-weight: normal;
+font-size: 60px;
+line-height: 72px;
+color: #2F80ED;
+}
+
+.header__description{
+    margin-left: 80px;
+    margin-top: 28px;
+    font-family: Noto Serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+}
+.logo{
+   
+  
+    width:125px;
+    height:142px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+  font-family: Inter;
+
+font-style: normal;
+
+font-weight: 500;
+
+font-size: 16px;
+
+line-height: 20px;
+}
+
+.nav__links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 8px;
+    margin-bottom: 0;
+    align-items: center;
+    column-gap: 20px;
+  }
+
+  .nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.span-accent{
+    color:#2f80ed;
+    font-family:  'Noto+Serif','Times New Roman', serif;
+    font-style: italic;
+}
+
+.header__description{
+    font-family:  'Noto+Serif','Times New Roman', serif;
+}
+
+.header__image{
+    display: block;
+    position: absolute;
+}
+
+.header__cafe-hours{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    margin-left: 80px;
+    list-style: none;
+    padding:0;
+   
+}
+
+.header__cafe-address{
+    display: flex;
+    margin-right: 80px;
+    margin-bottom: 40px;
+   
+
+
+}
+.header__footer{
+    display: flex;
+    font-family: Inter;
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color:#6f6f6f;
+justify-content: space-between;
+   
+}
+
+.menu{
+    background-color: #0a2750;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: cover;
+    height:cover;
+    color:white;
+}
+
+.menu__title{
+    max-width: 780px;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 44px; 
+    line-height: 52px;
+}
+
+.menu__title_subtitle{
+    margin-top: 24px;
+    max-width: 780px;
+    font-family: 'Noto+Serif','Times New Roman', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+}
+
+.menu__cards{
+    margin-top: 100px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin-bottom: 100px;
+}
+
+.menu__card{
+    max-width: 600px;
+}
+
+.menu__card_title{
+    padding-bottom: 32px;
+    margin-bottom: 0;
+}
+.menu__card_title{
+    font-family: 'Inter', Arial, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+}
+
+.menu__card_list{
+    font-family: 'Noto+Serif','Times New Roman', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+list-style: none;
+padding-left: 0;
+margin-top:0;
+}
+
+.menu__card_list_item{
+    padding-bottom: 16px;
+}
+
+.menu__card_list_item:last-child{
+    padding-bottom:0px
+}
+
+.espresso{
+   
+    
+}
+
+.baked{
+    margin-top:100px;
+   
+}
+
+.recipes{
+    background-color: #FFF;
+    background-image: url("/se_project_coffeeshop/images/background_recipes.svg");
+    background-repeat: no-repeat;
+    size:cover;
+    background-position: center;
+}
+
+.recipes__title{
+    max-width: 580px;
+    margin-left: 80px;
+    margin-top: 100px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight:500;
+    font-size: 44px;
+    line-height: 52px;
+}
+
+.recipes__subtitle{
+    margin-left: 80px;
+    margin-top: 24px;
+    max-width: 438px;
+    font-family: 'Noto+Serif','Times New Roman', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.recipes__videos{
+    margin-top: 80px;
+    width:480px;
+    height:273px;
+    margin-bottom: 215px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.recipes__video_caption{
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight:500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.reservation{
+    background-color: #d9e7ff;
+    background-image: url("/se_project_coffeeshop/images/background_reservation.svg");
+    background-repeat: none;
+    background-position: center;
+    size:cover;
+    margin:auto;
+    text-align: center;
+    
+}
+
+.reservation__title{
+    margin-top:100px;
+}
+
+.reservation__form{
+margin-top: 80px;
+margin-bottom: 120px;
+}
+.reservation__form_fieldset{
+padding-bottom: 8px;
+}
+.reservation__form_input{
+    border-radius: 4px;
+    margin-bottom: 32px;
+    max-width: 385px;
+    padding-bottom: 60px;
+}
+
+.reservation__button{
+    border-radius: 4px;
+    transition: opacity .5s ease-out;
+}
+
+.reservation__button:hover{
+    opacity: 70%;
+}
+
+.reservation__checkbox_container{
+display: flex;
+justify-content: center;
+margin-top: 0px;
+}
+
+.reservation__checkbox_text{
+    margin-top:0px;
+}
+
+.reservation__checkbox{
+    border-radius: 2px;
+    margin-top:0px;
+    height:20px;
+    width:20px;
+}
+
+.about{
+    background-color: #0a2750;
+    
+}
+
+.about__circle {
+    background-color: #2f80ed;
+    width: 426px;
+    height: 426px;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+  
+   
+    
+  }
+  .about__title{
+    z-index: 0;
+    max-width: 251px;
+    margin-left: 80px;
+
+    margin-top: 100px;
+    font-family: Inter;
+    color:white;
+font-style: normal;
+
+font-weight: 500;
+
+font-size: 44px;
+
+line-height: 52px;
+z-index: 0;
+  }
+  .about__paragraph{
+    color:white;
+    max-width: 660px;
+    margin-right: 80px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-left: 0;
+    font-family: Noto Serif;
+
+font-style: normal;
+
+font-weight: normal;
+
+font-size: 20px;
+
+line-height: 30px;
+  }
+  .about__paragraph:last-child{
+    padding-bottom: 0;
+    margin-bottom: 173px;
+  }
+
+  .footer{
+    background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+    color:white;
+  }
+
+  .footer__content{
+    margin-left: 80px;
+    margin-top: 60px;
+    margin-right:100px;
+    margin-bottom: 108px;
+  }
+  .footer__logo{
+    width:116px;
+    height:21px;
+  }
+
+  .footer__social_media_header{
+    padding-bottom: 20px;
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+
+  }
+  .footer__social_medias{
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+list-style: none;
+  }
+
+  .footer__social_medias:first-child{
+    padding-bottom: 16px;
+  }
+
+  .footer__social_media_logo{
+    width: 16px;
+    height:16px;
+    padding-right: 10px;
+  }
+
+  .footer__copyright{
+    padding: 0 0 60px 0;  
+    margin:0;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
