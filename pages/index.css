@@ -219,15 +219,19 @@ text-align: center;
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 100px;
+    column-gap: 100px;
+
 
 }
 
 .menu__card{
-    width: 600px;
+    max-width: 600px;
 
     flex-direction: column;
  
-    margin-right: 100px;
+    flex-basis: auto;
+  
+    
 }
 
 .menu__card_title{
@@ -279,8 +283,13 @@ padding-bottom: 16px;
     padding-bottom:0px
 }
 
+.filter{
+ 
+}
 .espresso{
    
+  
+
     
 }
 
