@@ -61,12 +61,11 @@
     font-size: 60px;
     line-height: 72px;
     color: #2F80ED;
+    display: block;
 }
 
-.header__title_divider{
-    border-style: none;
-    padding:0;
-    margin:0;
+.header__other-accent{
+    display: block;
 }
 
 .header__description{
