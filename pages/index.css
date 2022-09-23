@@ -55,7 +55,7 @@
     z-index: 2;
 }
 .header__span-accent{
-    font-family: Noto Serif;
+    font-family:'Noto+Serif','Times New Roman', serif;;
     font-style: italic;
     font-weight: normal;
     font-size: 60px;
@@ -66,7 +66,7 @@
 .header__description{
     margin-left: 80px;
     margin-top: 28px;
-    font-family: Noto Serif;
+    font-family:'Noto+Serif','Times New Roman', serif;Serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -110,13 +110,6 @@
 .nav__link:hover{
     color: #1f69c9;
   }
-
-
-
-.header__image{
-    display: block;
-    position: absolute;
-}
 
 
 .header__footer{
@@ -175,7 +168,7 @@
     text-align: center;
     margin-top: 24px;
     max-width: 780px;
-    font-family: Noto Serif;
+    font-family: 'Noto+Serif','Times New Roman', serif;Serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -197,17 +190,16 @@
     flex-basis: 43%;
 }
 
+
 .menu__card_title{
+    font-family: 'Inter', Arial, sans-serif;
     margin-top:0;
     padding-bottom: 32px;
     margin-bottom: 0;
-}
-.menu__card_title{
-    font-family: 'Inter', Arial, sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .menu__card_list{
@@ -225,10 +217,10 @@ line-height: 30px;
 .menu__card_list_item{
     padding-bottom: 16px;
     display: flex;
+    
 }
 .menu__card_list_item:last-child{
     padding-bottom:0;
-    display: flex;
 }
 
 .menu__divider{
@@ -237,9 +229,7 @@ line-height: 30px;
     margin:0 10px 0 10px;
 }
 
-.menu__card_list_item:last-child{
-    padding-bottom:0px;
-}
+
 
 
 .baked{
@@ -268,7 +258,7 @@ line-height: 30px;
 }
 
 .recipes__subtitle{
-    font-family: Noto Serif;
+    font-family: 'Noto+Serif','Times New Roman', serif;Serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -452,7 +442,7 @@ column-gap: 12px;
 
   .about__description_container{
     z-index: 2;
-    font-family: Noto Serif;
+    font-family: 'Noto+Serif','Times New Roman', serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
