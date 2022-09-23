@@ -1,6 +1,6 @@
-# Practicum Coffee Shop
+# Parker's Practicum Coffee Shop
 
-This is the second project of the Web Development program at Practicum. It was created using HTML and CSS, based on the design brief.
+We gonna get supercharged in this cool cafe. broh.
 
 ## Project features
 
@@ -13,4 +13,6 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Need to have a connected database for accepting user reservations.
+Would like to incorporate more animations (perhaps one that plays while user waits for coffee?)
+add more gradients and incorporate a gradual fall from white to navy instead of just in footer

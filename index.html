@@ -30,7 +30,11 @@
     <div class="page">
       <header class="header">
         <nav class="nav">
-          <img class="logo" src="./images/logo_coffee_shop.svg" />
+          <img
+            class="logo"
+            src="./images/logo_coffee_shop.svg"
+            alt="logo of practicum coffee shop"
+          />
           <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
           <ul class="nav__links">
             <li>
@@ -56,7 +60,11 @@
           the cozy vibes to help you get creative.
         </p>
 
-        <img class="header__image" src="./images/inside_coffee_shop.png" />
+        <img
+          class="header__image"
+          src="./images/inside_coffee_shop.png"
+          alt="a pic of the practicum coffeeshop"
+        />
 
         <div class="header__footer">
           <div class="header__footer_hours">
@@ -192,11 +200,11 @@
                 allowfullscreen
               ></iframe>
 
-              <span class="recipes__video_caption_container">
+              <div class="recipes__video_caption_container">
                 <p class="recipes__video_caption">Aeropress recipe</p>
                 <div class="recipe__divider"></div>
                 <p class="recipes__video_caption">~5 min</p>
-              </span>
+              </div>
             </div>
             <div class="recipe__video">
               <iframe
@@ -204,11 +212,11 @@
                 src="https://www.youtube.com/embed/st571DYYTR8?controls=0"
                 allowfullscreen
               ></iframe>
-              <span class="recipes__video_caption_container">
+              <div class="recipes__video_caption_container">
                 <p class="recipes__video_caption">French press recipe</p>
                 <div class="recipe__divider"></div>
                 <p class="recipes__video_caption">~15 min</p>
-              </span>
+              </div>
             </div>
           </div>
         </section>
@@ -221,15 +229,15 @@
             <fieldset class="reservation__form_fieldset">
               Number of guests *
             </fieldset>
-            <input class="reservation__form_input" placeholder="1-8" />
+            <input
+              class="reservation__form_input"
+              type="number"
+              placeholder="1-8"
+            />
             <fieldset class="reservation__form_fieldset">
               Date & time *
             </fieldset>
-            <input
-              type="datetime-local"
-              class="reservation__form_input"
-              placeholder="mm/dd/yyy --:-- --"
-            />
+            <input type="datetime-local" class="reservation__form_input" />
             <fieldset class="reservation__form_fieldset">Your email *</fieldset>
             <input
               class="reservation__form_input"
@@ -247,6 +255,7 @@
         </section>
         <section class="about">
           <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
 
           <h1 class="about__title">About the coffee shop</h1>
           <div class="about__description_container">
@@ -268,7 +277,11 @@
 
       <footer class="footer">
         <div class="footer__content">
-          <img class="footer__logo" src="./images/practicum_logo.svg" />
+          <img
+            class="footer__logo"
+            src="./images/practicum_logo.svg"
+            alt="legendary practicum logo"
+          />
           <div class="footer__social_media">
             <h2 class="footer__social_media_header">Social Media</h2>
             <ul class="footer__social_medias">
@@ -276,6 +289,7 @@
                 <img
                   class="footer__social_media_logo"
                   src="./images/facebook_white.svg"
+                  alt="zucc logo"
                 />
                 <a>Facebook</a>
               </li>
@@ -283,6 +297,7 @@
                 <img
                   class="footer__social_media_logo"
                   src="./images/instagram_white.svg"
+                  alt="also zucc logo"
                 />
                 <a>Instagram</a>
               </li>
