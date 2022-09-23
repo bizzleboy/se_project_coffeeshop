@@ -1,0 +1,129 @@
+.header{
+    display: flex;
+    flex-direction: column;
+     background-color: #FFF;
+     background-image: url("../images/background_header.svg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     min-height: 720px;
+     max-height: 800px;
+     height: 100vh;
+     position: relative;
+     z-index: 0;
+}
+.header__image{
+    width: 646px;
+    height:568px;
+    position: absolute;
+    top:124px;
+    right:5px;
+    z-index:-1;
+}
+
+.header__title{
+    margin-left: 80px;
+    margin-top: 80px;
+    max-width: 729px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
+    z-index: 2;
+}
+.header__span-accent{
+    font-family: "Noto+Serif";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 72px;
+    color: #2F80ED;
+    display: block;
+}
+
+.header__other-accent{
+    display: block;
+}
+
+.header__description{
+    margin-left: 80px;
+    margin-top: 28px;
+    font-family:"Noto+Serif",'Times New Roman', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 683px;
+}
+.logo{
+    width:125px;
+    height:142px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.nav__links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 30px;
+    margin-right: 80px;
+    margin-bottom: 0;
+    align-items: center;
+    column-gap: 20px;
+    justify-content: flex-start;
+
+  }
+
+  .nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav__link:hover{
+    color: #1f69c9;
+  }
+
+
+.header__footer{
+    display: flex;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color:#6f6f6f;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+
+.header__footer-paragraph{
+    margin: 0;
+}
+
+.header__footer-hours{
+
+    margin-bottom: 40px;
+    margin-left: 80px;
+    margin-top: auto; 
+  
+}
+.header__footer-address{
+    margin-right: 80px;
+    margin-bottom: 40px;
+}
