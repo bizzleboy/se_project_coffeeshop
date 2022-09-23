@@ -179,20 +179,19 @@ margin-top: auto;
 }
 
 .menu{
-    display: flex;
-    flex-direction: column;
     background-color: #0a2750;
     background-repeat: no-repeat;
     background-position: center;
     width: cover;
     height:cover;
     color:white;
-    justify-content: center;
 
-    align-items: center;
 }
 
 .menu__title{
+
+    margin:0 auto 0 auto;
+    text-align: center;
     max-width: 780px;
     padding-top: 100px;
     font-family: 'Inter', Arial, sans-serif;
@@ -203,6 +202,8 @@ margin-top: auto;
 }
 
 .menu__title_subtitle{
+    margin:0 auto 0 auto;
+    text-align: center;
     margin-top: 24px;
     max-width: 780px;
     font-family: Noto Serif;
@@ -218,7 +219,7 @@ text-align: center;
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
     column-gap: 100px;
 
 
@@ -387,37 +388,101 @@ line-height: 30px;
 }
 
 .reservation{
+
     background-color: #d9e7ff;
     background-image: url("/se_project_coffeeshop/images/background_reservation.svg");
     background-repeat: none;
     background-position: center;
     size:cover;
-    margin:auto;
     text-align: center;
+    padding-bottom: 100px;
+
     
 }
 
 .reservation__title{
-    margin-top:100px;
+  padding-top:100px
 }
 
 .reservation__form{
 margin-top: 80px;
 margin-bottom: 120px;
+border-radius: 4px;
+margin-bottom: 32px;
+max-width: 385px;
+padding-bottom: 60px;
+display: flex;
+flex-direction: column;
+margin-left: auto;
+margin-right: auto;
+
+
+
+
 }
 .reservation__form_fieldset{
 padding-bottom: 8px;
+border-style: none;
+text-align: start;
+padding: 0;
+margin: 0 0 8px 0;
+font-family: Inter;
+
+font-style: normal;
+
+font-weight: 500;
+
+font-size: 16px;
+
+line-height: 20px;
+
+
+
+
 }
 .reservation__form_input{
     border-radius: 4px;
     margin-bottom: 32px;
     max-width: 385px;
-    padding-bottom: 60px;
+ 
+    height:60px;
+    font-family: Inter;
+font-style: normal;
+
+font-weight: normal;
+
+font-size: 20px;
+
+line-height: 30px;
+
+
+color: #838383;
+   
+
+  
+ 
 }
 
 .reservation__button{
     border-radius: 4px;
     transition: opacity .5s ease-out;
+    border-style: none;
+    background-color:#2f80ed;
+    color:white;
+    height:60px;
+    max-width: 385px;
+    font-family: Inter;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+font-style: normal;
+
+font-weight: 500;
+
+font-size: 16px;
+
+line-height: 20px;
+    
 }
 
 .reservation__button:hover{
@@ -428,6 +493,7 @@ padding-bottom: 8px;
 display: flex;
 justify-content: center;
 margin-top: 0px;
+column-gap: 12px;
 }
 
 .reservation__checkbox_text{
@@ -439,10 +505,15 @@ margin-top: 0px;
     margin-top:0px;
     height:20px;
     width:20px;
+    padding-left: 12px;
+    
 }
 
 .about{
+    display: flex;
+    flex-direction: column;
     background-color: #0a2750;
+    z-index:-1;
     
 }
 
@@ -451,46 +522,48 @@ margin-top: 0px;
     width: 426px;
     height: 426px;
     border-radius: 50%;
-    z-index: -1;
+   
     position: absolute;
+    z-index: 1;
   
    
     
   }
   .about__title{
-    z-index: 0;
+
     max-width: 251px;
-    margin-left: 80px;
-
-    margin-top: 100px;
-    font-family: Inter;
+    
     color:white;
-font-style: normal;
+    z-index: 2;
+    margin-top: 100px;
+    margin-left:80px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    
+  }
 
-font-weight: 500;
+  .about__description_container{
+    z-index: 2;
+    align-content: flex-end;
+    margin-left: auto;
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top:119px;
 
-font-size: 44px;
-
-line-height: 52px;
-z-index: 0;
+  
   }
   .about__paragraph{
     color:white;
     max-width: 660px;
-    margin-right: 80px;
-    margin-bottom: 0;
-    padding-bottom: 20px;
-    margin-top: 0;
-    margin-left: 0;
-    font-family: Noto Serif;
-
-font-style: normal;
-
-font-weight: normal;
-
-font-size: 20px;
-
-line-height: 30px;
+    margin:0;
+    margin-bottom: 20px;
+   
   }
   .about__paragraph:last-child{
     padding-bottom: 0;
