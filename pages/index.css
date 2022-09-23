@@ -131,18 +131,18 @@
 }
 
 
-.header__footer_paragraph{
+.header__footer-paragraph{
     margin: 0;
 }
 
-.header__footer_hours{
+.header__footer-hours{
 
     margin-bottom: 40px;
     margin-left: 80px;
     margin-top: auto; 
   
 }
-.header__footer_address{
+.header__footer-address{
     margin-right: 80px;
     margin-bottom: 40px;
 }
@@ -168,7 +168,7 @@
     line-height: 52px;
 }
 
-.menu__title_subtitle{
+.menu__title-subtitle{
     margin:0 auto 0 auto;
     text-align: center;
     margin-top: 24px;
@@ -196,7 +196,7 @@
 }
 
 
-.menu__card_title{
+.menu__card-title{
     font-family: 'Inter', Arial, sans-serif;
     margin-top:0;
     padding-bottom: 32px;
@@ -207,7 +207,7 @@
     line-height: 30px;
 }
 
-.menu__card_list{
+.menu__card-list{
     font-family: 'Noto+Serif','Times New Roman', serif;
     font-style: normal;
     font-weight: normal;
@@ -219,12 +219,12 @@
     padding-bottom: 16px;
 }
 
-.menu__card_list_item{
+.menu__card-list-item{
     padding-bottom: 16px;
     display: flex;
     
 }
-.menu__card_list_item:last-child{
+.menu__card-list-item:last-child{
     padding-bottom:0;
 }
 
@@ -283,16 +283,16 @@
     margin-right: 40px;
 }
 
-.recipe__video_iframe{
+.recipe__video-iframe{
     width: 480px;
     height:273px;
 }
 
-.recipes__video_caption_container{
+.recipes__video-caption-container{
     max-width: 480px;
     display: flex;
 }
-.recipes__video_caption{
+.recipes__video-caption{
     margin: 0;
     font-family: Inter;
     font-style: normal;
@@ -331,7 +331,7 @@ flex-direction: column;
 margin-left: auto;
 margin-right: auto;
 }
-.reservation__form_fieldset{
+.reservation__form-fieldset{
 padding-bottom: 8px;
 border-style: none;
 text-align: start;
@@ -343,7 +343,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 20px;
 }
-.reservation__form_input{
+.reservation__form-input{
     border-radius: 4px;
     margin-bottom: 32px;
     max-width: 385px;
@@ -377,14 +377,14 @@ line-height: 20px;
     opacity: 70%;
 }
 
-.reservation__checkbox_container{
+.reservation__checkbox-container{
 display: flex;
 justify-content: center;
 margin-top: 0px;
 column-gap: 12px;
 }
 
-.reservation__checkbox_text{
+.reservation__checkbox-text{
     margin-top:0px;
 }
 
@@ -427,7 +427,7 @@ column-gap: 12px;
     z-index: 1;
   }
 
-  .about__circle_animation_blurred{
+  .about__circle_animation-blurred{
     animation: pulsate 1.3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
@@ -445,7 +445,7 @@ column-gap: 12px;
     line-height: 52px;
   }
 
-  .about__description_container{
+  .about__description-container{
     z-index: 2;
     font-family: 'Noto+Serif','Times New Roman', serif;
     font-style: normal;
@@ -486,13 +486,13 @@ column-gap: 12px;
     padding-left: 80px;
   }
 
-  .footer__social_media{
+  .footer__social-media{
    margin-left:auto;
    margin-right: 100px;
 
   }
 
-  .footer__social_media_header{
+  .footer__social-media-header{
     font-family: Inter;
 font-style: normal;
 font-weight: bold;
@@ -502,7 +502,7 @@ margin: 0;
 padding-bottom: 20px;
 
   }
-  .footer__social_medias{
+  .footer__social-medias{
   font-family: Inter;
 font-style: normal;
 font-weight: normal;
@@ -513,11 +513,11 @@ margin:0;
 padding: 0;
   }
 
-  .footer__social_media:last-child{
+  .footer__social-media:last-child{
     padding-top: 16px;
   }
 
-  .footer__social_media_logo{
+  .footer__social-media-logo{
     width: 16px;
     height:16px;
     padding-right: 10px;
