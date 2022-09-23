@@ -279,11 +279,11 @@
    margin-bottom: 215px;
 }
 
-.recipe__video:first-child{
+.recipe-video:first-child{
     margin-right: 40px;
 }
 
-.recipe__video-iframe{
+.recipe-video__iframe{
     width: 480px;
     height:273px;
 }
@@ -302,7 +302,7 @@
 }
 
 
-.recipe__divider{
+.recipe-divider{
     flex-grow: 1;
     margin:0;
 }
