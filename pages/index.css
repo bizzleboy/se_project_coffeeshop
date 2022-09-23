@@ -54,7 +54,7 @@
     line-height: 72px;
     z-index: 2;
 }
-.span-accent{
+.header__span-accent{
     font-family: Noto Serif;
     font-style: italic;
     font-weight: normal;
@@ -111,15 +111,7 @@
     color: #1f69c9;
   }
 
-.span-accent{
-    color:#2f80ed;
-    font-family:  'Noto+Serif','Times New Roman', serif;
-    font-style: italic;
-}
 
-.header__description{
-    font-family:  'Noto+Serif','Times New Roman', serif;
-}
 
 .header__image{
     display: block;
@@ -331,7 +323,7 @@ line-height: 30px;
 }
 
 .reservation__title{
-  padding-top:100px
+  padding-top:100px;
 }
 
 .reservation__form{
@@ -537,7 +529,7 @@ padding: 0;
   }
 
   .footer__copyright{
-    padding: 108px 0 60px 80px;  
+    padding: 108px 0 60px 80px;
     margin:0;
     font-family: Inter;
     font-style: normal;
