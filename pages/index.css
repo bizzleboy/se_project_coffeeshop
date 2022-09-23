@@ -377,7 +377,7 @@ line-height: 20px;
     opacity: 70%;
 }
 
-.reservation__checkbox-container{
+.reservation-checkbox__container{
 display: flex;
 justify-content: center;
 margin-top: 0px;
