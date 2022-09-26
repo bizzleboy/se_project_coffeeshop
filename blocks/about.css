@@ -5,6 +5,7 @@
     background-color: #0a2750;
     position: relative;
     z-index:-1;
+    overflow: hidden;
 }
 @keyframes pulsate {
     0%{
@@ -19,6 +20,7 @@
         opacity: 0;
     }
 }
+
 .about__circle {
     background-color: #2f80ed;
     width: 426px;
@@ -28,12 +30,14 @@
     left:-129px;
     top:-152px;
     z-index: 1;
+   
   }
 
   .about__circle_animation_blurred{
     animation: pulsate 1.3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+
   }
   .about__title{
     max-width: 251px;

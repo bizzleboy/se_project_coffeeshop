@@ -50,7 +50,13 @@
 }
 
 
-
+.recipes__video-captions{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 .recipes__video-caption{
     margin: 0;
     font-family: Inter;
@@ -60,8 +66,6 @@
     line-height: 30px;
     margin-top: 24px;
     max-width: 480px;
-    display: flex;
-    justify-content: space-between;
 }
 
 

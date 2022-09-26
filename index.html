@@ -71,14 +71,16 @@
         />
 
         <div class="header__footer">
-          <div class="header__footer-hours">
-            <p class="header__paragraph">Hours</p>
-            <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
-            <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
-            <p class="header__paragraph">
-              200 Success Avenue, The Town of Practicum
-            </p>
-          </div>
+          <p class="header__paragraph header__hours">Hours</p>
+          <p class="header__paragraph header__hours">
+            Monday - Friday (10:00 - 19:00)
+          </p>
+          <p class="header__paragraph header__hours">
+            Saturday - Sunday (11:00 - 18:00)
+          </p>
+          <p class="header__paragraph header__address">
+            200 Success Avenue, The Town of Practicum
+          </p>
         </div>
       </header>
 
@@ -199,8 +201,10 @@
                 allowfullscreen
               ></iframe>
 
-              <p class="recipes__video-caption">Aeropress recipe</p>
-              <p class="recipes__video-caption">~5 min</p>
+              <ul class="recipes__video-captions">
+                <li class="recipes__video-caption">Aeropress recipe</li>
+                <li class="recipes__video-caption">~5 min</li>
+              </ul>
             </div>
             <div class="recipes__video">
               <iframe
@@ -209,8 +213,10 @@
                 allowfullscreen
               ></iframe>
 
-              <p class="recipes__video-caption">French press recipe</p>
-              <p class="recipes__video-caption">~15 min</p>
+              <ul class="recipes__video-captions">
+                <li class="recipes__video-caption">French press recipe</li>
+                <li class="recipes__video-caption">~15 min</li>
+              </ul>
             </div>
           </div>
         </section>
@@ -247,8 +253,10 @@
           </form>
         </section>
         <section class="about" id="about">
-          <div class="about__circle"></div>
-          <div class="about__circle about__circle_animation_blurred"></div>
+          <div class="about__circle-overflow_container">
+            <div class="about__circle"></div>
+            <div class="about__circle about__circle_animation_blurred"></div>
+          </div>
 
           <h2 class="about__title">About the coffee shop</h2>
           <div class="about__content">
