@@ -66,42 +66,20 @@
     line-height: 20px;
     color:#6f6f6f;
     margin-top: auto;
-    flex-direction: column;
-    align-content: spa;
+    justify-content: space-between;
+    align-items: flex-end;
+}
 
+.header__paragraph{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.header__paragraph:last-child{
+    margin-bottom: 40px;
 }
 
 .header__hours{
-    margin-bottom: 0;
-    margin-left: 80px;
     margin-top: 0;
-    align-self: flex-start;
-}
 
-.header__hours:last-child{
-    margin-bottom: 40px;
-
-}
-
-.header__address{
-    margin-bottom: 40px;
-    margin-right: 80px;
-    align-self: flex-end;
-    margin-top: 0;
-}
-
-
-
-
-.header__footer-hours{
-
-    margin-bottom: 40px;
     margin-left: 80px;
-
-  
 }
-.header__footer-address{
-    margin-left: auto;
-    margin-bottom: 40px;
-    margin-right: 80px;
-  }
