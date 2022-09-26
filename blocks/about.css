@@ -30,7 +30,7 @@
     z-index: 1;
   }
 
-  .about__circle_animation-blurred{
+  .about__circle_animation_blurred{
     animation: pulsate 1.3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
@@ -48,7 +48,7 @@
     line-height: 52px;
   }
 
-  .about__description-container{
+  .about__content{
     z-index: 2;
     font-family:"Noto Serif",'Times New Roman', serif;
     font-style: normal;

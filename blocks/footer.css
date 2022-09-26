@@ -22,7 +22,7 @@
 
   }
 
-  .footer__social-media-header{
+  .footer__social-heading{
     font-family: 'Inter', Arial, sans-serif;
 font-style: normal;
 font-weight: bold;
@@ -32,7 +32,7 @@ margin: 0;
 padding-bottom: 20px;
 
   }
-  .footer__social-medias{
+  .footer__list{
   font-family: 'Inter', Arial, sans-serif;
 font-style: normal;
 font-weight: normal;
@@ -47,11 +47,21 @@ padding: 0;
     padding-top: 16px;
   }
 
-  .footer__social-media-logo{
+  .footer__social-icon{
     width: 16px;
     height:16px;
     padding-right: 10px;
   }
+
+  .footer__social-link{
+    transition-timing-function: ease-out;
+  }
+
+  .footer__social-link:hover{
+    transition-duration: 1.2s;
+    color:#c1c1c1
+  }
+
 
   .footer__copyright{
     padding: 108px 0 60px 80px;
