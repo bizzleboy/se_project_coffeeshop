@@ -34,7 +34,7 @@
     display: flex;
     
 }
-.menu__card-list-item:last-child{
+.card__list-item:last-child{
     padding-bottom:0;
 }
 

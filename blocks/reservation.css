@@ -1,27 +1,26 @@
-
-.reservation{
-
-    background-color: #d9e7ff;
-    background-image: url("/se_project_coffeeshop/images/background_reservation.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url("../images/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
 }
 
-.reservation__title{
-    padding-top:100px;
-    font-family: Inter,Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 52px;
+.reservation__title {
+  padding-top: 100px;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.reservation__form{
-margin-top: 80px;
-padding-bottom: 120px;
-border-radius: 4px;
-max-width: 385px;
-
+.reservation__form {
+  margin-top: 80px;
+  padding-bottom: 120px;
+  border-radius: 4px;
+  max-width: 385px;
 }

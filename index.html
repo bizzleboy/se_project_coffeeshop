@@ -222,32 +222,49 @@
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Book a table</h2>
           <form class="reservation__form form">
-            <label for="name" class="form__fieldset">Name *</label>
-            <input class="form__input" id="name" placeholder="Name Surname" />
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label"
+                >Name *
+                <input
+                  class="form__input"
+                  id="name"
+                  placeholder="Name Surname"
+                />
+              </label>
 
-            <label for="guests" class="form__fieldset">
-              Number of guests *
-            </label>
-            <input
-              class="form__input"
-              type="number"
-              placeholder="1-8"
-              id="guests"
-            />
-            <label for="date" class="form__fieldset"> Date & time * </label>
-            <input id="date" type="datetime-local" class="form__input" />
-            <label for="email" class="form__fieldset">Your email *</label>
-            <input
-              id="email"
-              class="form__input"
-              placeholder="email@email.com"
-            />
+              <label for="guests" class="form__label">
+                Number of guests *
 
-            <button class="form__button">Book a table</button>
-            <div class="form__checkbox-container">
-              <input type="checkbox" class="form__checkbox" />
-              <p class="form__checkbox-text">I agree with the terms of use</p>
-            </div>
+                <input
+                  class="form__input"
+                  type="number"
+                  placeholder="1-8"
+                  id="guests"
+                />
+              </label>
+              <label for="date" class="form__label">
+                Date & time *
+                <input id="date" type="datetime-local" class="form__input" />
+              </label>
+              <label for="email" class="form__label"
+                >Your email *
+                <input
+                  id="email"
+                  class="form__input"
+                  placeholder="email@email.com"
+                />
+              </label>
+            </fieldset>
+
+            <fieldset class="form__fieldset">
+              <button class="form__button">Book a table</button>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__label form__label_checkbox">
+                <input type="checkbox" class="form__checkbox" />
+                I agree with the terms of use
+              </label>
+            </fieldset>
           </form>
         </section>
         <section class="about" id="about">
@@ -285,27 +302,26 @@
             <h2 class="footer__social-heading">Social Media</h2>
             <ul class="footer__list">
               <li class="footer__list-item">
-                <img
-                  class="footer__social-icon"
-                  src="./images/facebook_white.svg"
-                  alt="zucc logo"
-                />
                 <a
                   href="https://www.facebook.com/PracticumUSA/"
                   class="footer__social-link"
-                  >Facebook</a
+                  ><img
+                    class="footer__social-icon"
+                    src="./images/facebook_white.svg"
+                    alt="zucc logo"
+                  />Facebook</a
                 >
               </li>
               <li class="footer__list-item">
-                <img
-                  class="footer__social-icon"
-                  src="./images/instagram_white.svg"
-                  alt="also zucc logo"
-                />
                 <a
                   href="https://www.instagram.com/yndx.practicum/?hl=en"
                   class="footer__social-link"
-                  >Instagram</a
+                >
+                  <img
+                    class="footer__social-icon"
+                    src="./images/instagram_white.svg"
+                    alt="also zucc logo"
+                  />Instagram</a
                 >
               </li>
             </ul>
